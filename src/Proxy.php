@@ -1,6 +1,6 @@
 <?php
 
-namespace Secureit\Proxy;
+namespace SecureMyApp\Proxy;
 
 class Proxy
 {
