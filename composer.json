@@ -1,0 +1,54 @@
+{
+    "name": "securemyapp/proxy",
+    "description": "My awesome proxy package to secure my app from thief",
+    "keywords": [
+        "securemyapp"
+    ],
+    "homepage": "https://github.com/secure-my-app/proxy",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Zainal Hasan",
+            "email": "zhanang19@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "guzzlehttp/guzzle": "^6.3",
+        "illuminate/support": "5.8.*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.8.*",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SecureMyApp\\Proxy\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SecureMyApp\\Proxy\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SecureMyApp\\Proxy\\ProxyServiceProvider"
+            ],
+            "aliases": {
+                "Proxy": "SecureMyApp\\Proxy\\ProxyFacade"
+            }
+        }
+    }
+}
