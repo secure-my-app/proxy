@@ -1,5 +1,3 @@
-# Very short description of the package
-
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/securemyapp/proxy.svg?style=flat-square)](https://packagist.org/packages/securemyapp/proxy)
 [![Build Status](https://img.shields.io/travis/securemyapp/proxy/master.svg?style=flat-square)](https://travis-ci.org/securemyapp/proxy)
 [![Quality Score](https://img.shields.io/scrutinizer/g/securemyapp/proxy.svg?style=flat-square)](https://scrutinizer-ci.com/g/securemyapp/proxy)
@@ -41,13 +39,9 @@ If you discover any security related issues, please email zhanang19@gmail.com in
 
 ## Credits
 
-- [Zainal Hasan](https://github.com/securemyapp)
+- [Zainal Hasan](https://github.com/zhanang19)
 - [All Contributors](../../contributors)
 
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-## Laravel Package Boilerplate
-
-This package was generated using the [Laravel Package Boilerplate](https://laravelpackageboilerplate.com).
